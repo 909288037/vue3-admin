@@ -2,7 +2,7 @@
  * @Description:
  * @Author: Liu Shuai
  * @Date: 2022-01-12 22:46:06
- * @LastEditTime: 2022-01-13 16:35:02
+ * @LastEditTime: 2022-01-15 09:39:23
  * @LastEditors: Liu Shuai
  * @Reference:
 -->
@@ -17,7 +17,6 @@ export default {
 </script>
 
 <style>
-@import url('./styles/index.scss');
 html,
 body {
   height: 100%;

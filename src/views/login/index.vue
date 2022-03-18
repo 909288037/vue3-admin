@@ -2,7 +2,7 @@
  * @Description:
  * @Author: Liu Shuai
  * @Date: 2022-01-13 14:04:52
- * @LastEditTime: 2022-01-14 11:00:11
+ * @LastEditTime: 2022-01-24 15:25:14
  * @LastEditors: Liu Shuai
  * @Reference:
 -->
@@ -57,13 +57,18 @@
       </el-form-item>
     </el-form>
   </div>
+  <!-- <b-message :visible="isShow" message="哈哈哈哈哈哈哈哈"></b-message> -->
+  <!-- <el-button @click="isShow = !isShow">显示</el-button> -->
 </template>
 
 <script setup>
 import { ref } from 'vue'
 import { validatePassword } from './rules'
 import { useStore } from 'vuex'
+// import BMessage from '@/components/BMessage/index.vue'
+
 const loginFromRef = ref(null)
+// const isShow = ref(false)
 // 数据源
 const loginForm = ref({
   username: 'super-admin',
